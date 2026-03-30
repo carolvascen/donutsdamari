@@ -1,0 +1,10 @@
+{
+  "name": "@donuts-damari/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "lint": "echo 'Shared package - no lint'",
+    "type-check": "echo 'Shared package - no type-check'"
+  }
+}

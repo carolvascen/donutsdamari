@@ -1,0 +1,13 @@
+{
+  "name": "@donuts-damari/firebase",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./firebase-config.js",
+  "scripts": {
+    "lint": "echo 'Firebase package - no lint'",
+    "type-check": "echo 'Firebase package - no type-check'"
+  },
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}
