@@ -175,12 +175,7 @@ export default function DonutsDamariWebsite() {
   if (showLoginModal) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-50 flex items-center justify-center p-4">
-        <style>{`
-          @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap');
-          body { font-family: 'Outfit', sans-serif; }
-          .display-font { font-family: 'Fredoka', sans-serif; }
-        `}</style>
-        
+                
         <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full border-4 border-red-300">
           <div className="text-center mb-8">
             <h1 className="display-font text-4xl font-bold bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">
