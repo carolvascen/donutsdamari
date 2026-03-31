@@ -2,7 +2,7 @@
 import dynamic from 'next/dynamic';
 
 const DonutsDamariWebsite = dynamic(
-  () => import('../components/DonutsDamariWebsite'),
+() => import('./components/DonutsDamariWebsite'),
   { ssr: false }
 );
 
