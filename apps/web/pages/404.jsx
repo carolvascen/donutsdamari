@@ -1,7 +1,10 @@
+'use client';
+
 export default function NotFound() {
   return (
-    <div>
+    <div style={{textAlign: 'center', padding: '50px'}}>
       <h1>404 - Página não encontrada</h1>
+      <a href="/">Voltar ao início</a>
     </div>
   )
 }
