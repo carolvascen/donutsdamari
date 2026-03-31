@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useMemo, useEffect } from 'react';
 import { ShoppingCart, Home, LogOut, Heart, User, Plus, Minus, X, MessageCircle } from 'lucide-react';
 
